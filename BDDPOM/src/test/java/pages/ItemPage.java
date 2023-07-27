@@ -29,14 +29,12 @@ public class ItemPage extends TestBase  {
 		
 
 	
-		public void viewItemDetail(){
-
-		itemIcon. click();
+	public void viewItemDetail(){
+         itemIcon. click();
 		}
 	
-		public void addItem() {
-
-		addItemBtn.click();
+	public void addItem() {
+         addItemBtn.click();
 }
 	}
 

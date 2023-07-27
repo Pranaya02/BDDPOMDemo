@@ -1,13 +1,12 @@
 package runners;
 
-
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
+
 @CucumberOptions(
-		features = "src\\test\\resources\\features\\PlaceOrder.feature"
-    ,   glue = {"StepDef"} ,
+		features = "src\\test\\resources\\features\\" ,
+       glue = {"StepDef"} ,
 		monochrome = true ,
 		dryRun = false,
 		plugin = {"pretty" , 
@@ -20,10 +19,9 @@ import io.cucumber.testng.CucumberOptions;
 		}
 		)
 
-
-
 public class AppRunner1 extends AbstractTestNGCucumberTests {
 	
 }
+		
 
    
